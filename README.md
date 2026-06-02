@@ -3,7 +3,7 @@ This is a lightweight, zero-dependency, private command-line interface (CLI) hab
 
 ## Core Features
 - **Strict Periodic Boundaries:** Supports separate calculation engines for Daily and Weekly habits.
-- **Tamper-Proof Data Logging:** Records every check-off with absolute ISO-8601 timestamps inside a local JSON file instead of simple true/false checkboxes.
+- **Tamper-Proof Data Logging:** Records every check-off with absolute timestamps inside a local JSON file instead of simple true/false checkboxes.
 - **Pure Analytical Engine:** Math filters and streak counters run independently from storage, eliminating runtime database corruption risks.
 - **Pre-Loaded Testing Data:** Starts with 4 weeks of baseline mock data to instantly demonstrate active streaks, misses, and recovery tracking.
 - **Automated Quality Testing:** Features a complete unit-test powered by `pytest`.
